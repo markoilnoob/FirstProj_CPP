@@ -1,5 +1,6 @@
 #include <iostream>
 #include "FirstProj.h"
+#include "Weapon.h"
 //#include "FirstProj.h"
 
 using namespace std;
@@ -59,7 +60,8 @@ int main()
 	int area = rectangle.GetArea();
 
 	//homework
-
+	cout << "Dimension: " << sizeof(array) << endl;
+	Weapon gun1("Desert Eagle", "Handgun", 12, 5.34f, false, 75);
 
 	cin.get();
 
