@@ -125,10 +125,16 @@
   <ItemGroup>
     <ClCompile Include="FirstProj.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Operatori.cpp" />
+    <ClCompile Include="Puntatore.cpp" />
+    <ClCompile Include="StruttureDiControllo.cpp" />
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FirstProj.h" />
+    <ClInclude Include="Operatori.h" />
+    <ClInclude Include="Puntatore.h" />
+    <ClInclude Include="StruttureDiControllo.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
